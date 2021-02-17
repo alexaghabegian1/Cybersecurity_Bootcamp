@@ -96,5 +96,4 @@ _TODO: Answer the following questions to fill in the blanks:_
 - The playbook file is called filebeat-playbook.yml (or metricbeat-playbook.yml), located on the ELK server. Filepath: /etc/ansible/roles
 - You must update the hosts file to include the target VM. This file is located in /etc/ansible. 
 - You can then check the status using http://(serverIP)/app/kibana
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+The command to download the playbook is ansible-playbook filebeat-playbook.yml
